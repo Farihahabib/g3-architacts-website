@@ -37,7 +37,7 @@
     font-weight: 600;
 }
 main{
-    max-width: 1440px;
+    max-width: 1175px;
     margin: 0 auto;
 }
 main > section{
@@ -89,6 +89,8 @@ margin-bottom: 50px;
 /*team and feature related styles*/
 .teams{
     align-items: center;
+    display: flex;
+    margin: 0 auto;
 }
 .team-imgs{
     display: grid;
@@ -97,7 +99,7 @@ margin-bottom: 50px;
 }
 .features{
     margin-left: 80px ;
-    max-width: 400px;
+    max-width: 70%;
 }
 .features h2{
     font-size: 2.2rem;
@@ -160,8 +162,13 @@ margin-bottom: 50px;
 /* fact-card design*/
 .fact-cards{
     display: flex;
+    gap: 30px;
     justify-content: space-around;
     align-items: center;
+}
+.fact-cards>div{
+    flex: 1;
+    
 }
 .facts-up{
     margin-left: 1rem;
@@ -200,14 +207,14 @@ width: 35%;
     display: grid;
     grid-template-columns: repeat(5,1fr);
     filter: grayscale(100%);
-    margin: 2.8rem 1.12rem;
+    /* margin: 2.8rem 1.12rem; */
     align-items: center;
 }
 
 
 
 .rights{
-    width: 100%;
+    /* width: 100%; */
     font-size: 0.7rem;
     display: flex;
     margin: 0 auto;
